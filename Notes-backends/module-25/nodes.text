@@ -5,4 +5,9 @@
    git branch 
 
 12. git checkout development
-git rebase main
+   
+
+13. Merge = দুই branch-এর history জোড়া লাগে, একটি merge commit তৈরি হয়।
+
+14. Rebase = আপনার branch-এর commit-গুলোকে নতুন base-এর ওপর আবার সাজিয়ে দেয়, তাই history
+     -> git rebase main
