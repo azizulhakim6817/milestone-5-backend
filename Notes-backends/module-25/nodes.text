@@ -1,17 +1,17 @@
 1. RBAC ---> Roll Base Access control
 
-# 1. main branch-এ ছিলেন
+# 1. main branch-এ ছিলেন----------------
 git checkout main
 
-# 2. নতুন branch তৈরি করলেন
+# 2. নতুন branch তৈরি করলেন-------------------------
 git checkout -b development
 
-# 3. development-এ কাজ করলেন
+# 3. development-এ কাজ করলেন------------------------------------
 git add .
 git commit -m "RBAC and .gitignore setup"
 git push -u origin development
 
-# 4. কাজ শেষ হলে main-এ merge
+# 4. কাজ শেষ হলে main-এ merge------------------------------
 git checkout main
 git merge development
 git push origin main
