@@ -3,3 +3,6 @@
 2. .gitignore
 3. git checkout -b development
    git branch 
+
+12. git checkout development
+git rebase main
