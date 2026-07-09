@@ -21,3 +21,20 @@ git push origin main
 
 14. Rebase = আপনার branch-এর commit-গুলোকে নতুন base-এর ওপর আবার সাজিয়ে দেয়, তাই history
      -> git rebase main
+
+----------------------------install---------------
+1. npm init -y
+2. npm i -D typescript
+2. tsc --init
+3. npm i express mongoose zot jsonwebtoken cors dotenv
+
+4. npm i -D @types/express
+
+----------MVC pattern--------------------------------
+1. client- router--controller--model
+2. moduler pattern---> src/modulers/users/R+C+M+S+I+V
+
+----project run---------------------------------------
+1. npm i -D tsx
+2. "dev": "tsx watch src/server.ts"
+
